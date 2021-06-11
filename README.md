@@ -1,4 +1,5 @@
 # Introduccion a esquemas de nombres, redes,clientes y servicios con Java.
+## Taller ARSW 2021-i / 10 Junio del 2021
 
 # Prerequisitos 
   + Git version 2.25.1
@@ -82,13 +83,11 @@
       java -cp Network-1.0-SNAPSHOT.jar edu.escuelaing.arsw.Datagram.DatagramTimeClient
 
 
-
-# Diagrama de clase 
 # Licencia
 
   Para consultar la Licencia del proyecto haga [click aqui](https://github.com/camilaFetecua/Network/blob/main/LICENSE.md)
   
   
 # Autor 
-  **Maria Camila Fetecua Garcia** 
+  **Maria Camila Fetecua Garcia**  LOCS/HORA 700/18= 39 LOCS/Hora 
 
