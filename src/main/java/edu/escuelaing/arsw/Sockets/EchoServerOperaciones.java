@@ -10,10 +10,10 @@ import java.net.Socket;
 /** Echo Server para ejercicio 4.3.2
  * Escriba un servidor que pueda recibir un numero y responda con un operacion sobre este numero.
  * Este servidor puede recibir un mensaje que empiece por
- * “fun:”, si recibe este mensaje cambia la operacion a las especificada. El servidor
+ * fun:,si recibe este mensaje cambia la operacion a las especificada. El servidor
  * debe responder las funciones seno, coseno y tangente. Por defecto debe empezar
  * calculando el coseno. Por ejemplo, si el primer numero que recibe es 0, debe
- * responder 1, si despues recibe π/2 debe responder 0, si luego recibe “fun:sin”
+ * responder 1, si despues recibe π/2 debe responder 0, si luego recibe fun:sin
  * debe cambiar la operacion actual a seno, es decir a a partir de ese momento
  * debe calcular senos. Si enseguida recibe 0 debe responder 0.
  */
@@ -24,7 +24,7 @@ public class EchoServerOperaciones {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = null;
         try {
-            serverSocket = new ServerSocket(35000);
+            serverSocket = new ServerSocket(35002);
         } catch (IOException e) {
             System.err.println("Could not listen on port: 35002.");
             System.exit(1);

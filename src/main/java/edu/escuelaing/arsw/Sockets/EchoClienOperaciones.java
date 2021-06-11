@@ -8,12 +8,12 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 /** Echo Client para ejercicio 4.3.2
- * Escriba un servidor que pueda recibir un n´umero y responda con un operaci´on sobre este n´umero. Este servidor puede recibir un mensaje que empiece por
- * “fun:”, si recibe este mensaje cambia la operaci´on a las especificada. El servidor
+ * Escriba un servidor que pueda recibir un numero y responda con un operacion sobre este numero. Este servidor puede recibir un mensaje que empiece por
+ * fun:, si recibe este mensaje cambia la operacion a las especificada. El servidor
  * debe responder las funciones seno, coseno y tangente. Por defecto debe empezar
- * calculando el coseno. Por ejemplo, si el primer n´umero que recibe es 0, debe
- * responder 1, si despu´es recibe π/2 debe responder 0, si luego recibe “fun:sin”
- * debe cambiar la operaci´on actual a seno, es decir a a partir de ese momento
+ * calculando el coseno. Por ejemplo, si el primer numero que recibe es 0, debe
+ * responder 1, si despues recibe π/2 debe responder 0, si luego recibe fun:sin
+ * debe cambiar la operacion actual a seno, es decir a a partir de ese momento
  * debe calcular senos. Si enseguida recibe 0 debe responder 0.
  */
 public class EchoClienOperaciones {

@@ -8,6 +8,15 @@ import java.net.SocketTimeoutException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Tomado del pdf Introducci´on a esquemas de nombres, redes,
+ * clientes y servicios con Java
+ * Luis Daniel Benavides Navarro
+ * Escuela Colombiana de Ingenier´ıa
+ * Arquitectura Empresarial
+ * 28 de enero de 2020
+ */
+
 public class DatagramTimeClient {
     public static String Fsiguiente;
 
